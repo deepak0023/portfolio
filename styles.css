@@ -85,6 +85,11 @@ h2{
 
 /* Content section */
 
+.content-wrapper {
+    margin: 20% 0 0 0;
+    position: relative;
+}
+
 .wrapper {
     display: flex;
     height: 100%;
