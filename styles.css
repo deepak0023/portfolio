@@ -99,8 +99,20 @@ h2{
     font-weight: bold;
     text-align: justify;
     position: relative;
+    animation: scroll 60s linear forwards;
 }
 
 h1, h3 {
     text-align: center;
+}
+
+@keyframes scroll {
+	from {
+        top: 0px;
+        transform: translateZ(0) rotateX(20deg);
+     }
+	to {
+        top: -7500px;
+        transform: translateZ(-2500px) rotateX(21deg);
+    }
 }
