@@ -10,8 +10,9 @@ body {
 h2{
     color: #fff;
     position: relative;
-    margin-top: 200px;
-    text-align: center;
+    margin-top: 400px;
+    margin-left: 50px;
+    text-align: left;
     letter-spacing: 0.2em;
     font-size: 4em;
     font-family: 'Mountains of Christmas';
@@ -27,6 +28,8 @@ h2{
     top: -80px;          /* pull the image little bit top */
     border-bottom: 3px solid #222;
     height: 100px;
+    color: black;
+    z-index: 1000;
 }
 
 #wire li {
@@ -44,6 +47,7 @@ h2{
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-fill-mode: both;
+    z-index: 1000;
 }
 
 #wire li:nth-child(odd) {
@@ -85,17 +89,26 @@ h2{
 
 /* Content section */
 
-/* .content-wrapper {
-    margin: 20% 0 0 0;
+.content-wrapper {
     position: relative;
-} */
+}
+
+.content-wrapper::after {
+    content: '';
+    position: fixed;
+    top: 75px;
+    width: 100%;
+    height: 50%;
+    /* background to fade out the text as it goes up */
+    background: linear-gradient(180deg, rgba(20,20,20,1) 40%, rgba(20,20,20,0) 100%);
+}
 
 .wrapper {
     display: flex;
     height: 100%;
     width: 60%;
     margin: 0 auto;
-    perspective: 2000px;
+    perspective: 1600px;
 }
 
 .scroll-text {
@@ -105,7 +118,7 @@ h2{
     font-weight: bold;
     text-align: justify;
     position: relative;
-    animation: scroll 60s linear forwards;
+    animation: scroll 35s linear forwards;
     /* transform: rotateX(50deg); */
 }
 
@@ -115,11 +128,11 @@ h1, h3 {
 
 @keyframes scroll {
 	from {
-        top: 0px;
+        top: -1000px;
         transform: translateZ(0) rotateX(20deg);
      }
 	to {
-        top: -7500px;
+        top: -8000px;
         transform: translateZ(-2500px) rotateX(21deg);
     }
 }
