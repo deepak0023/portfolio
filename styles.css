@@ -46,6 +46,17 @@ h2{
     animation-name: odd-flash;
 }
 
+#wire li:before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 10px;
+    border-radius: 4px;
+    top: -5px;
+    left: 0px;
+    background: #444;
+}
+
 @keyframes even-flash {
     0%, 100% {
         background: rgba(255, 230, 65, 1);
