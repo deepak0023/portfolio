@@ -104,3 +104,40 @@ li span.active::before{
 .order p{
   margin: 20px auto;
 }
+
+.skill_container {
+  max-width: 94%;
+  margin: 10px 35px 40px;
+}
+
+.skill_container > .skill_block {
+  display: block;
+  margin: 10px;
+  padding: 0px 20px;
+}
+
+.skill_container > .project_block {
+  display: inline-block;
+  margin: 10px;
+  padding: 0px 20px;
+  max-width: 45%;
+}
+
+.skill_container h3{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+.back_button {
+  margin: 10px auto 20px;
+}
+
+.personal_info .back_button {
+  margin: 30px auto 0px;
+}
+
+.skill_button {
+  margin: 10px 15px;
+}
