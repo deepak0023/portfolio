@@ -1,9 +1,14 @@
 import React from 'react';
+import {motion} from 'framer-motion'
 
 const Header = () => {
   return (
     <header>
-      <div className="logo">
+      <motion.div className="logo"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1 }}
+      >
 
       <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" height="50px" width="50px" version="1.1" id="Capa_1" viewBox="0 0 512 512" xmlSpace="preserve">
         <g>
@@ -36,10 +41,14 @@ const Header = () => {
         </g>
       </svg>
 
-      </div>
-      <div className="title">
+      </motion.div>
+      <motion.div className="title"
+        initial={{ y: -250 }}
+        animate={{ y: 0 }}
+        transition={{ delay: 0.5, type: 'spring', stiff: 500 }}
+      >
         <h1>Employee Portfolio</h1>
-      </div>
+      </motion.div>
     </header>
   )
 }
