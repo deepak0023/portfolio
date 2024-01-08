@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 const PersonalInfo = () => {
   const languages = ['English', 'Kannada', 'Malayalam'];
@@ -21,7 +22,11 @@ const PersonalInfo = () => {
       {
         <div className="personal_info">
           <Link to="/Home">
-            <button className="back_button">Back</button>
+          <motion.button className="back_button"
+              initial={{ x: '-100vw' }}
+              animate={{ x: 0 }}
+              transition={{ type:'spring', stiffness: 120 }}
+            >Back</motion.button>
           </Link>
         </div>
       }
