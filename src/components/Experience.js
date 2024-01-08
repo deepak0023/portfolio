@@ -1,15 +1,29 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 const Experience = () => {
 
   return (
-    <div className="base full_width_container">
+    <motion.div className="base full_width_container"
+      initial={{ x: '200vh' }}
+      animate={{ x: 0 }}
+      transition={{ type:'spring', delay: 1 }}
+    >
 
       {
         <div>
           <Link to="/Home">
-            <button className="back_button">Back</button>
+            <motion.button className="back_button"
+              initial={{ x: '-100vw' }}
+              animate={{ x: 0 }}
+              transition={{ type:'spring', stiffness: 120 }}
+              whileHover={{
+                scale: 1.1,
+                textShadow: "0px 0px 8px rgb(255,255,255)",
+                boxShadow: "0px 0px 8px rgb(255,255,255)"
+              }}
+          >Back</motion.button>
           </Link>
         </div>
       }
@@ -86,8 +100,7 @@ const Experience = () => {
 
       </div>
 
-
-    </div>
+    </motion.div>
   )
 }
 
