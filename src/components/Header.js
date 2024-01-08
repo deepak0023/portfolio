@@ -27,7 +27,11 @@ const pathVariants = {
 const Header = () => {
   return (
     <header>
-      <div className="logo">
+      <motion.div className="logo"
+        drag
+        dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }}
+        dragElastic={0.7}
+      >
 
       <motion.svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" height="50px" width="50px" version="1.1" id="Capa_1" viewBox="0 0 512 512" xmlSpace="preserve" variants={svgVariants} initial="hidden" animate="visible">
         <g>
@@ -60,7 +64,9 @@ const Header = () => {
         </g>
       </motion.svg>
 
-      </div>
+      <p style={{ 'font-size': "7px" }}>(grab me)</p>
+
+      </motion.div>
       <motion.div className="title"
         initial={{ y: -250 }}
         animate={{ y: 0 }}
