@@ -18,7 +18,12 @@ const HobbyProject = () => {
               initial={{ x: '-100vw' }}
               animate={{ x: 0 }}
               transition={{ type:'spring', stiffness: 120 }}
-            >Back</motion.button>
+              whileHover={{
+                scale: 1.1,
+                textShadow: "0px 0px 8px rgb(255,255,255)",
+                boxShadow: "0px 0px 8px rgb(255,255,255)"
+              }}
+          >Back</motion.button>
           </Link>
         </div>
       }

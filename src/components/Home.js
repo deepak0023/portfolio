@@ -13,24 +13,48 @@ const Home = () => {
         Welcome to my portfolio
       </h2>
       <Link to="/experience">
-        <button>
+        <motion.button
+            whileHover={{
+                scale: 1.1,
+                textShadow: "0px 0px 8px rgb(255,255,255)",
+                boxShadow: "0px 0px 8px rgb(255,255,255)"
+            }}
+        >
           Experience
-        </button>
+        </motion.button>
       </Link>
       <Link to="/hobby_projects">
-        <button>
+      <motion.button
+            whileHover={{
+                scale: 1.1,
+                textShadow: "0px 0px 8px rgb(255,255,255)",
+                boxShadow: "0px 0px 8px rgb(255,255,255)"
+            }}
+        >
           Hobby Project
-        </button>
+        </motion.button>
       </Link>
       <Link to="/skill">
-        <button>
+      <motion.button
+            whileHover={{
+                scale: 1.1,
+                textShadow: "0px 0px 8px rgb(255,255,255)",
+                boxShadow: "0px 0px 8px rgb(255,255,255)"
+            }}
+        >
           Skills Known
-        </button>
+        </motion.button>
       </Link>
       <Link to="/personal_info">
-        <button>
+      <motion.button
+            whileHover={{
+                scale: 1.1,
+                textShadow: "0px 0px 8px rgb(255,255,255)",
+                boxShadow: "0px 0px 8px rgb(255,255,255)"
+            }}
+        >
           Personal Information
-        </button>
+        </motion.button>
       </Link>
     </motion.div>
   )
