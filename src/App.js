@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Experience from './components/Experience';
 import HobbyProject from './components/HobbyProject';
 import Skill from './components/Skill';
+import PersonalInfo from './components/PersonalInfo';
 
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
         </Route>
         <Route path="/skill">
           <Skill />
+        </Route>
+        <Route path="/personal_info">
+          <PersonalInfo />
         </Route>
         <Route path="/">
           <Home />
