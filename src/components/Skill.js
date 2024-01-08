@@ -9,7 +9,7 @@ const Skill = () => {
   const project_management_tools = ['git', 'github', 'bitbucket', 'docker', 'aws', 'kubernetes', 'jira', 'zoho', 'teams', 'slack', 'confluence']
 
   return (
-    <div className="base skill_container">
+    <div className="base full_width_container">
 
       {
         <div>
@@ -24,7 +24,7 @@ const Skill = () => {
         <h3>Languages & Frameworks Known</h3>
         {frameworks.map(framework => {
           return (
-            <button className="skill_button">{ framework }</button>
+            <button className="tag_button">{ framework }</button>
           )
         })}
 
@@ -34,7 +34,7 @@ const Skill = () => {
         <h3>Environments</h3>
           {environments.map(environment => {
           return (
-              <button className="skill_button">{ environment }</button>
+              <button className="tag_button">{ environment }</button>
             )
           })}
 
@@ -44,7 +44,7 @@ const Skill = () => {
         <h3>Caching Systems known</h3>
           {cache_systems.map(cache_system => {
             return (
-              <button className="skill_button">{ cache_system }</button>
+              <button className="tag_button">{ cache_system }</button>
             )
           })}
 
@@ -54,7 +54,7 @@ const Skill = () => {
         <h3>Databases Known</h3>
           {databases.map(database => {
             return (
-              <button className="skill_button">{ database }</button>
+              <button className="tag_button">{ database }</button>
             )
           })}
 
@@ -64,7 +64,7 @@ const Skill = () => {
         <h3>Project management tools known</h3>
           {project_management_tools.map(project_management_tool => {
             return (
-              <button className="skill_button">{ project_management_tool }</button>
+              <button className="tag_button">{ project_management_tool }</button>
             )
           })}
 

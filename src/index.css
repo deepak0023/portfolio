@@ -105,25 +105,12 @@ li span.active::before{
   margin: 20px auto;
 }
 
-.skill_container {
+.full_width_container {
   max-width: 94%;
   margin: 10px 35px 40px;
 }
 
-.skill_container > .skill_block {
-  display: block;
-  margin: 10px;
-  padding: 0px 20px;
-}
-
-.skill_container > .project_block {
-  display: inline-block;
-  margin: 10px;
-  padding: 0px 20px;
-  max-width: 45%;
-}
-
-.skill_container h3{
+.full_width_container h3{
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 10px;
@@ -134,10 +121,39 @@ li span.active::before{
   margin: 10px auto 20px;
 }
 
+.tag_button {
+  margin: 10px 15px;
+}
+
+/* Experience block */
+
+/* End of Experience block */
+
+/* Skill block */
+
+.full_width_container > .skill_block {
+  display: block;
+  margin: 10px;
+  padding: 0px 20px;
+}
+
+/* End Skill block */
+
+/* Project block */
+
+.full_width_container > .project_block {
+  display: inline-block;
+  margin: 10px;
+  padding: 0px 20px;
+  max-width: 45%;
+}
+
+/* End of Project block */
+
+/* Personal info block */
+
 .personal_info .back_button {
   margin: 30px auto 0px;
 }
 
-.skill_button {
-  margin: 10px 15px;
-}
+/* End of Personal info block */

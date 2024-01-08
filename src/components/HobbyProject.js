@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const HobbyProject = () => {
 
   return (
-    <div className="base skill_container">
+    <div className="base full_width_container">
 
       {
         <div>
@@ -20,10 +20,10 @@ const HobbyProject = () => {
         {
           <div className="Project Section">
             <Link to={{ pathname: "https://github.com/deepak0023/laravel_backend" }} target="_blank">
-              <button className="skill_button">GitHub</button>
+              <button className="tag_button">GitHub</button>
             </Link>
             <Link to="/AboutProject" target="_blank">
-              <button className="skill_button">Project details</button>
+              <button className="tag_button">Project details</button>
             </Link>
             <p>The project mainly covers the backend feature of laravel. The project mainly covers the backend feature of laravel. The project mainly covers the backend feature of laravel</p>
             <p>The project mainly covers the backend feature of laravel</p>
@@ -44,10 +44,10 @@ const HobbyProject = () => {
         {
           <div className="Project Section">
             <Link to={{ pathname: "https://github.com/deepak0023/laravel_backend" }} target="_blank">
-              <button className="skill_button">GitHub</button>
+              <button className="tag_button">GitHub</button>
             </Link>
             <Link to="/AboutProject" target="_blank">
-              <button className="skill_button">Project details</button>
+              <button className="tag_button">Project details</button>
             </Link>
             <p>The project mainly covers the backend feature of laravel. The project mainly covers the backend feature of laravel. The project mainly covers the backend feature of laravel.</p>
             <p>The project mainly covers the backend feature of laravel</p>
@@ -68,10 +68,10 @@ const HobbyProject = () => {
         {
           <div className="Project Section">
             <Link to={{ pathname: "https://github.com/deepak0023/laravel_backend" }} target="_blank">
-              <button className="skill_button">GitHub</button>
+              <button className="tag_button">GitHub</button>
             </Link>
             <Link to="/AboutProject" target="_blank">
-              <button className="skill_button">Project details</button>
+              <button className="tag_button">Project details</button>
             </Link>
             <p>The project mainly covers the backend feature of laravel . The project mainly covers the backend feature of laravel. The project mainly covers the backend feature of laravel</p>
             <p>The project mainly covers the backend feature of laravel</p>
