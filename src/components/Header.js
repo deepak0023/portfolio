@@ -72,7 +72,7 @@ const Header = () => {
         animate={{ y: 0 }}
         transition={{ delay: 0.5, type: 'spring', stiff: 500 }}
       >
-        <h1>Employee Portfolio</h1>
+        <h1>Deepak Portfolio</h1>
       </motion.div>
     </header>
   )

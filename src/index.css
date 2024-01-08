@@ -127,6 +127,12 @@ li span.active::before{
 
 /* Experience block */
 
+.full_width_container > .experience_block {
+  display: block;
+  margin: 10px;
+  padding: 0px 20px;
+}
+
 /* End of Experience block */
 
 /* Skill block */
@@ -142,10 +148,10 @@ li span.active::before{
 /* Project block */
 
 .full_width_container > .project_block {
-  display: inline-block;
+  display: block;
   margin: 10px;
   padding: 0px 20px;
-  max-width: 45%;
+  line-height: 1.6em;
 }
 
 /* End of Project block */
