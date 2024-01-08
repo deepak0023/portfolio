@@ -127,6 +127,12 @@ li span.active::before{
 
 /* Experience block */
 
+.full_width_container > .experience_block {
+  display: block;
+  margin: 10px;
+  padding: 0px 20px;
+}
+
 /* End of Experience block */
 
 /* Skill block */

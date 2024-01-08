@@ -28,73 +28,57 @@ const Experience = () => {
         </div>
       }
 
-      <div className="project_block">
+      <div className="experience_block">
 
-        <h3>Laravel Backend</h3>
+        <h3>Laerdal Bangalore LLP</h3>
         {
-          <div className="Project Section">
-            <Link to={{ pathname: "https://github.com/deepak0023/laravel_backend" }} target="_blank">
-              <button className="tag_button">Company Experience</button>
+          <div className="Experience Section">
+            <Link to={{ pathname: "https://laerdal.com/in/about-us/working-at-laerdal/work-in-india/" }} target="_blank">
+              <button className="tag_button">Company Profile</button>
             </Link>
-            <Link to="/AboutProject" target="_blank">
-              <button className="tag_button">Project Link</button>
-            </Link>
-            <p>The project mainly covers the backend feature of laravel. The project mainly covers the backend feature of laravel. The project mainly covers the backend feature of laravel</p>
-            <p>The project mainly covers the backend feature of laravel</p>
-            <p>The project mainly covers the backend feature of laravel</p>
-            <ul>
-              <li>feature 1</li>
-              <li>feature 2</li>
-              <li>feature 3</li>
-            </ul>
+            <p>Being part of Laerdal we were working on a Edtech solution that that help to train the medical staffs seamlessly through customised web application .</p>
           </div>
         }
 
       </div>
 
-      <div className="project_block">
+      <div className="experience_block">
 
-        <h3>Laravel Backend</h3>
+        <h3>Omniware Technologies Pvt Ltd</h3>
         {
           <div className="Project Section">
-            <Link to={{ pathname: "https://github.com/deepak0023/laravel_backend" }} target="_blank">
-              <button className="tag_button">GitHub</button>
+            <Link to={{ pathname: "https://omniware.in/" }} target="_blank">
+              <button className="tag_button">Company Profile</button>
             </Link>
-            <Link to="/AboutProject" target="_blank">
-              <button className="tag_button">Project details</button>
-            </Link>
-            <p>The project mainly covers the backend feature of laravel. The project mainly covers the backend feature of laravel. The project mainly covers the backend feature of laravel.</p>
-            <p>The project mainly covers the backend feature of laravel</p>
-            <p>The project mainly covers the backend feature of laravel</p>
-            <ul>
-              <li>feature 1</li>
-              <li>feature 2</li>
-              <li>feature 3</li>
-            </ul>
+            <p>Being part of Omniware technologies we were working on a fintech solution that enables merchants to connect with the bank seamlessly through various payment integration connecting various providers with different payment modes .</p>
           </div>
         }
 
       </div>
 
-      <div className="project_block">
+      <div className="experience_block">
 
-        <h3>Laravel Backend</h3>
+        <h3>Inurture Education Solutions</h3>
         {
           <div className="Project Section">
-            <Link to={{ pathname: "https://github.com/deepak0023/laravel_backend" }} target="_blank">
-              <button className="tag_button">GitHub</button>
+            <Link to={{ pathname: "https://inurture.co.in/" }} target="_blank">
+              <button className="tag_button">Company Profile</button>
             </Link>
-            <Link to="/AboutProject" target="_blank">
-              <button className="tag_button">Project details</button>
+            <p>Being part of Inurture education solutions we were working on a edtech solution that enables effective management of student portfolio with college, professor and corporations .</p>
+          </div>
+        }
+
+      </div>
+
+      <div className="experience_block">
+
+        <h3>Wisys Technologies Pvt Ltd (Now acquired by Pyrotech)</h3>
+        {
+          <div className="Project Section">
+            <Link to={{ pathname: "https://pyrotechindia.com/" }} target="_blank">
+              <button className="tag_button">Company Profile</button>
             </Link>
-            <p>The project mainly covers the backend feature of laravel . The project mainly covers the backend feature of laravel. The project mainly covers the backend feature of laravel</p>
-            <p>The project mainly covers the backend feature of laravel</p>
-            <p>The project mainly covers the backend feature of laravel</p>
-            <ul>
-              <li>feature 1</li>
-              <li>feature 2</li>
-              <li>feature 3</li>
-            </ul>
+            <p>Being part of Wisys Technologies I was involved in working on IOT/Smart systems that enables effective management street lighting and office lighting with the help of pir sensor response and light brightness scheduling .</p>
           </div>
         }
 
