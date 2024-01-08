@@ -16,9 +16,12 @@ const PersonalInfo = () => {
       <ul>
         {languages.map(language => {
           return (
-            <li key={language}>
+            <motion.li key={language}
+              whileHover={{ scale: 1.3, originX: 0, color: '#f8e112' }}
+              transition={{ type: 'spring', stiffness: 300 }}
+            >
               <span className="active">{ language }</span>
-            </li>
+            </motion.li>
           )
         })}
       </ul>
