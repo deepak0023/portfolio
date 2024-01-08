@@ -6,7 +6,11 @@ const PersonalInfo = () => {
   const languages = ['English', 'Kannada', 'Malayalam'];
 
   return (
-    <div className="base container">
+    <motion.div className="base container"
+      initial={{ x: '200vh' }}
+      animate={{ x: 0 }}
+      transition={{ type:'spring', delay: 1 }}
+    >
 
       <h3>Languages Known</h3>
       <ul>
@@ -31,7 +35,7 @@ const PersonalInfo = () => {
         </div>
       }
 
-    </div>
+    </motion.div>
   )
 }
 

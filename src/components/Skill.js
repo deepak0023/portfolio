@@ -10,7 +10,11 @@ const Skill = () => {
   const project_management_tools = ['git', 'github', 'bitbucket', 'docker', 'aws', 'kubernetes', 'jira', 'zoho', 'teams', 'slack', 'confluence']
 
   return (
-    <div className="base full_width_container">
+    <motion.div className="base full_width_container"
+      initial={{ x: '200vh' }}
+      animate={{ x: 0 }}
+      transition={{ type:'spring', delay: 1 }}
+    >
 
       {
         <div>
@@ -75,7 +79,7 @@ const Skill = () => {
 
       </div>
 
-    </div>
+    </motion.div>
   )
 }
 

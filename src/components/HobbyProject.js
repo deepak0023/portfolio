@@ -5,7 +5,11 @@ import { motion } from 'framer-motion';
 const HobbyProject = () => {
 
   return (
-    <div className="base full_width_container">
+    <motion.div className="base full_width_container"
+      initial={{ x: '200vh' }}
+      animate={{ x: 0 }}
+      transition={{ type:'spring', delay: 1 }}
+    >
 
       {
         <div>
@@ -92,7 +96,7 @@ const HobbyProject = () => {
       </div>
 
 
-    </div>
+    </motion.div>
   )
 }
 
